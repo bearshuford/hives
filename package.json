@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-spring/three": "^9.7.2",
+    "@react-three/drei": "^9.66.1",
+    "@react-three/fiber": "^8.13.0",
+    "@supabase/auth-helpers-react": "^0.3.1",
+    "@supabase/supabase-js": "^2.14.0",
+    "@types/three": "^0.151.0",
+    "@vueuse/motion": "^2.0.0-beta.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "styled-components": "^5.3.9",
+    "styled-icons": "^10.47.0",
+    "three": "^0.152.2",
+    "usehooks-ts": "^2.9.1",
+    "wouter": "^2.10.0"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.61",
+    "@svgr/core": "^7.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^3.1.0",
+    "netlify-cli": "^13.2.2",
+    "typescript": "^4.9.3",
+    "unplugin-icons": "^0.16.1",
+    "vite": "^4.2.0"
+  }
+}
